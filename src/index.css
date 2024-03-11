@@ -1,0 +1,32 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.flash-button{
+  width:70%;
+  height: 40vh;
+  font-size: x-large;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 20px;
+  border-width: 10px;
+}
+.diffcard-container{
+  margin-top: 3%;
+}
+.next-button{
+  font-size: large;
+  background-color: white;
+  color:gray;
+  padding: 2vh;
+  border-radius: 20px;
+}
+.next-button:hover{
+  transform: scale(1.2);
+}
