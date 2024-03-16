@@ -4,7 +4,7 @@ const Flashcard = (props) => {
     
     return(
         <div className='card-content'>
-            {props.flip ? props.text : props.name}
+            {props.flip ? props.name : props.text}
         </div>
     )
 }

@@ -17,10 +17,46 @@
   border-radius: 20px;
   border-width: 10px;
 }
+
+.guess-container{
+  padding:20px;
+  display: flex;
+  justify-content: center;
+  gap:1%
+}
+.guess-container-input{
+  width:20%
+}
+.guess-container-input-right{
+
+}
+.guess-container-input-wrong{
+
+}
+.guess-button{
+  border-radius: 15px;
+}
+.guess-button:hover{
+  transform: scale(1.05);
+}
+
+
 .diffcard-container{
   margin-top: 3%;
 }
+.back-button{
+  margin-right:2.5%;
+  font-size: large;
+  background-color: white;
+  color:gray;
+  padding: 2vh;
+  border-radius: 20px;
+}
+.back-button:hover{
+  transform: scale(1.1);
+}
 .next-button{
+  margin-left:2.5%;
   font-size: large;
   background-color: white;
   color:gray;
@@ -28,5 +64,5 @@
   border-radius: 20px;
 }
 .next-button:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
